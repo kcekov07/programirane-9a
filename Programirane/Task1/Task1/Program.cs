@@ -3,11 +3,11 @@
     public static void Main()
     {
         Console.WriteLine("Input 3 words");
-        Console.WriteLine("Input first word");
+        Console.Write("Input first word:");
         string w1 = Console.ReadLine();
-        Console.WriteLine("Input second word");
+        Console.Write("Input second word:");
         string w2 = Console.ReadLine();
-        Console.WriteLine("Input third word");
+        Console.Write("Input third word:");
         string w3 = Console.ReadLine();
 
         Console.Write("Which Word Do You Like?(1,2,3) ");
