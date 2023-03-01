@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convert meters to kilometre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pounds to dollars", "pounds to dollars\pounds to dollars.csproj", "{2775FC2E-355A-45C8-B847-2F342C54E374}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reversed chars", "reversed chars\reversed chars.csproj", "{9FBC32FF-2221-4402-BB45-026E0E1C1489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2775FC2E-355A-45C8-B847-2F342C54E374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2775FC2E-355A-45C8-B847-2F342C54E374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2775FC2E-355A-45C8-B847-2F342C54E374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

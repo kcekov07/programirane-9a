@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pounds_to_dollars
+namespace reversed_chars
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Pounds = ");
-            double pounds = double.Parse(Console.ReadLine());
-            double dollars = pounds * 1.31;
-            Console.WriteLine(dollars);
+            char a =char.Parse(Console.ReadLine());
+            char b =char.Parse(Console.ReadLine());
+            char c =char.Parse(Console.ReadLine());
 
+            Console.WriteLine("a b c");
             Console.ReadLine();
         }
     }
