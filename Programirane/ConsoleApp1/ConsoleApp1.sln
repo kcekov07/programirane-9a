@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pounds to dollars", "pounds
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reversed chars", "reversed chars\reversed chars.csproj", "{9FBC32FF-2221-4402-BB45-026E0E1C1489}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{6A7DD55F-A3C4-4FAB-AC56-4C137F54C3AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FBC32FF-2221-4402-BB45-026E0E1C1489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7DD55F-A3C4-4FAB-AC56-4C137F54C3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7DD55F-A3C4-4FAB-AC56-4C137F54C3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7DD55F-A3C4-4FAB-AC56-4C137F54C3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7DD55F-A3C4-4FAB-AC56-4C137F54C3AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
