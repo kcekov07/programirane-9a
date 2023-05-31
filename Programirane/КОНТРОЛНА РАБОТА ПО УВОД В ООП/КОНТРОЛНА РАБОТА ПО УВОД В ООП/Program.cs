@@ -12,7 +12,7 @@ namespace КОНТРОЛНА_РАБОТА_ПО_УВОД_В_ООП
         {
             var cars = new List<Car>();
 
-            Console.WriteLine("Input Car Data");
+            Console.WriteLine("Input Car Data");                                                                                                                                                                       
 
             while (true)
             {
