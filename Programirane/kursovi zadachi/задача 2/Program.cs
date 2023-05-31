@@ -27,7 +27,7 @@ namespace задача_2
             }
             else
             {
-                price = double.Parse(Console.ReadLine());
+                price = priceOver20kg;
             }
 
             if (days > 30)
