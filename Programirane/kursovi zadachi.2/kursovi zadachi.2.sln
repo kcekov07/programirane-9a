@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kursovi zadachi.2", "kursovi zadachi.2\kursovi zadachi.2.csproj", "{FFA683B1-AFD6-4D8C-B0E4-F739C5202B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadacha 2", "zadacha 2\zadacha 2.csproj", "{8536435B-F15D-47AB-BF88-D88F9CE5FF3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA683B1-AFD6-4D8C-B0E4-F739C5202B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA683B1-AFD6-4D8C-B0E4-F739C5202B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA683B1-AFD6-4D8C-B0E4-F739C5202B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA683B1-AFD6-4D8C-B0E4-F739C5202B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8536435B-F15D-47AB-BF88-D88F9CE5FF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8536435B-F15D-47AB-BF88-D88F9CE5FF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8536435B-F15D-47AB-BF88-D88F9CE5FF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8536435B-F15D-47AB-BF88-D88F9CE5FF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67190766-E581-43CD-8014-41C894B5ADE7}
+	EndGlobalSection
+EndGlobal
