@@ -43,7 +43,7 @@ namespace kursovi_zadachi._2
             }
 
             return charCounts;
-            Console.ReadLine( );
+           
         }
 
        

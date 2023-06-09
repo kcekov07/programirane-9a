@@ -57,7 +57,14 @@ namespace zadacha_3
 
         static void PrintResults(string obtainedItem, Dictionary<string, int> keyMaterials, SortedDictionary<string, int> junkItems)
         {
-            Console.WriteLine($"{char.ToUpper(obtainedItem[0])}{obtainedItem.Substring(1)} obtained!");
+            var prizes = new Dictionary<string, string>  {
+            { "shards", "Shadowmourne" },
+            { "fragments", "Valanyr" },
+            { "motes", "Dragonwrath" }
+        };
+
+
+            Console.WriteLine($"{prizes[obtainedItem]} obtained!");
 
             var remainingMaterials = keyMaterials
                 .OrderByDescending(m => m.Value)
