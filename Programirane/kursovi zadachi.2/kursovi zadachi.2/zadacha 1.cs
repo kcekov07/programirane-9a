@@ -15,7 +15,7 @@ namespace kursovi_zadachi._2
 
             Dictionary<char, int> charCounts = CountCharacters(input);
 
-            Console.WriteLine("Character Counts (excluding spaces):");
+            Console.WriteLine("Character Counts:");
             foreach (KeyValuePair<char, int> kvp in charCounts)
             {
                 Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
