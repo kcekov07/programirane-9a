@@ -11,11 +11,27 @@ namespace Zadacha_5
         static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            Dictionary<string, string> database = new Dictionary<string, string>();
+            List<string> inputs = new List<string>();
 
             for (int i = 0; i < n; i++)
             {
-                string[] command = Console.ReadLine().Split();
+                string input = Console.ReadLine();
+                inputs.Add(input);
+            }
+
+            Dictionary<string, string> database = ProcessCommands(inputs);
+
+            PrintDatabase(database);
+            Console.ReadLine(); 
+        }
+
+        static Dictionary<string, string> ProcessCommands(List<string> inputs)
+        {
+            Dictionary<string, string> database = new Dictionary<string, string>();
+
+            foreach (string input in inputs)
+            {
+                string[] command = input.Split();
                 string action = command[0];
                 string username = command[1];
 
@@ -30,7 +46,7 @@ namespace Zadacha_5
                 }
             }
 
-            PrintDatabase(database);
+            return database;
         }
 
         static void Register(Dictionary<string, string> database, string username, string licensePlateNumber)
