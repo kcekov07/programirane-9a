@@ -15,7 +15,7 @@ namespace Zadacha_6
             string input;
             while ((input = Console.ReadLine()) != "end")
             {
-                string[] inputParts = input.Split(":");
+                string[] inputParts = input.Split(new string[] { " : " }, StringSplitOptions.None);
                 string courseName = inputParts[0];
                 string studentName = inputParts[1];
 
@@ -40,6 +40,7 @@ namespace Zadacha_6
                     Console.WriteLine($"-- {student}");
                 }
             }
+            Console.ReadLine();
         }
     }
 }
