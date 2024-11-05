@@ -23,8 +23,8 @@ namespace oppbd2.Models
 
         public string GetInfo()
         {
-            string personalInfo = $"Id:{Id}\n{FirstName[0]}.{SurName} {LastName}";
-            string accountData = "";
+            string personalInfo = $"Id:{Id}\n{FirstName} {SurName} {LastName}";
+          
             string classinfo = Class.Info();
             
 

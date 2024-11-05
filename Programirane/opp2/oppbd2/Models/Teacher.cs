@@ -14,5 +14,7 @@ namespace oppbd2.Models
         public int? ManagedClassId { get; set; }
 
         public virtual Class? ManagedClass { get; set; }
+
+        
     }
 }
