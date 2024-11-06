@@ -76,7 +76,10 @@ namespace oppbd2
                         }
                     case 10:
                         {
+                            return;
                             break;
+
+                           
                         }
                     default:
                         {
